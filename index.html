@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+	<title>BMI Calculator: Reboot13</title>
+
+	<!-- Bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<!-- JavaScript-->
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+	<h3 align="center"> BMI Calculator </h3> 
+
+	<div class="container">
+	 	<div class="mb-3">
+  <label for="Weight" class="form-label">Weight</label>
+  <input type="text" class="form-control" id="weight" placeholder="Enter Weight in Kg">
+</div>
+<div class="mb-3">
+  <label for="Height" class="form-label">Height</label>
+  <input type="text" class="form-control" id="height" placeholder="Enter Height in Cm">
+</div>
+
+<input type="submit" name="Check BMI" class="btn btn-primary" value="Check BMI" onclick="checkBMI()"> 
+
+
+<ul>
+	<li>Weight: <span id="wout"></span></li>
+	<li>Height: <span id="hout"></span></li>
+</ul>
+<h4>BMI: <span id="BMI"></span></h4>
+	</div>
+	<center>
+<div id="overview"></div>
+<div class="footer">
+  <a href="https://github.com/reboot13-git/credit-card-masking"><img src="https://img.icons8.com/fluent/24/000000/github.png"/>Reboot13-git</div>
+</center>
+
+
+</body>
+</html>
