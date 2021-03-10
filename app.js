@@ -8,9 +8,10 @@ console.log("weight:",weight);
 console.log("height:",height);
 
 
- height = height/100;
+ heightInMetre = height/100;
 
- var BMI = weight/(height*height);
+ var BMI = weight/(heightInMetre*heightInMetre);
+ BMI = BMI.toFixed(6);
  console.log("BMI:", BMI);
 
  document.getElementById('wout').innerHTML = weight; + "&nbsp;Kg";
