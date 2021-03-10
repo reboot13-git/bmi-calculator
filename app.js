@@ -14,7 +14,7 @@ console.log("height:",height);
  BMI = BMI.toFixed(6);
  console.log("BMI:", BMI);
 
- document.getElementById('wout').innerHTML = weight; + "&nbsp;Kg";
+ document.getElementById('wout').innerHTML = weight + "&nbsp;Kg";
  document.getElementById('hout').innerHTML = height + "&nbsp;Cm";
  document.getElementById('BMI').innerHTML = BMI;
 
