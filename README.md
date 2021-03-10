@@ -9,6 +9,11 @@ Body Mass Index Calculator
 
 BMI = kg / m<sup>2</sup>
 
+### Deployment
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/reboot13-git/bmi-calculator)
+
+
 ### Reboot13
 
 [Telegram](https://telegram.me/reboot13_dev)
